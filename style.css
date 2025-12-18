@@ -712,10 +712,18 @@ body {
 
     transition: transform 0.4s ease;
 }
-
 .hire-talents-card:hover {
+    border-color: #068a65;
+}
+
+.hire-talents-card:hover h2 {
     transform: translateY(-10px);
-    border: 1px solid #068a65;
+    color: #0a5;
+}
+
+.hire-talents-card:hover .view-details-btn {
+    background-color: #068a65;
+    color: #fff;
 }
 
 .hire-talents-card-img {
@@ -735,11 +743,6 @@ body {
 
 .hire-talents-card h2 {
     font-size: 1.2rem;
-
-}
-
-.hire-talents-card h2:hover {
-    color: #0b8260;
 
 }
 
@@ -782,11 +785,6 @@ body {
     background-color: #fff;
 }
 
-.view-details-btn button:hover {
-
-    background-color: #068a65;
-    color: #fff;
-}
 
 .package-section {
     width: 100%;
