@@ -205,16 +205,22 @@ body {
     border-radius: 10px;
     text-align: center;
     background-color: #fff;
-    transition: all 0.6s ease-in-out,
-        color 0.6s ease-in-out box-shadow 0.4s ease,
+
+    transition:
+        color 0.3s ease-in-out,
+        transform 0.6s ease-in-out,
+        box-shadow 0.5s ease-in-out;
 }
 
 .job-card:hover {
     background-color: #02694c;
     color: #fff;
     cursor: pointer;
-    transform: translateY(-5px);
+
+    transform: translateY(-15px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
 }
+
 
 
 .job-card:hover h3,
@@ -365,13 +371,13 @@ body {
     }
 
 }
-
 .banner-group {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 0 0 0.5rem;
     gap: 3em;
-    animation: spin 50s infinite linear;
+    animation: spin 30s infinite linear;
 }
 
 .showcase {
