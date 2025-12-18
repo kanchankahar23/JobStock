@@ -715,16 +715,17 @@ body {
     transition: transform 0.4s ease;
 }
 
-.hire-talents-card:hover
-{
-   border: 2px solid #068a65;
+.hire-talents-card:hover {
+    border: 2px solid #068a65;
 
 }
-.hire-talents-card:hover .view-details-btn button{
-background-color:#068a65;
-color: #fff;
+
+.hire-talents-card:hover .view-details-btn button {
+    background-color: #068a65;
+    color: #fff;
 }
-.hire-talents-card:hover h2{
+
+.hire-talents-card:hover h2 {
     color: #068a65;
 }
 
@@ -820,12 +821,11 @@ color: #fff;
     border-radius: 10px;
     width: 400px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
     color: #fff;
 
 }
-
 
 .package-card-body {
     font-size: 1rem;
@@ -835,21 +835,20 @@ color: #fff;
     flex-direction: column;
     gap: 1px;
 }
-.package-card-body  {
-   color: #000;
-}
 
 .package-card-header {
     padding: 40px;
     font-size: 1.5rem;
-    background-color: #272f3b;
     border-radius: 10px;
     overflow: hidden;
 }
 
-.package-card-header:hover {
-    background-color: #0b8260;
+.package-card-header h2 {
+    font-size: 30px;
 }
+
+
+
 
 .package-card:hover {
     transform: translateY(-10px);
@@ -857,6 +856,7 @@ color: #fff;
 
 .package-card-header h2 {
     font-size: 1.8rem;
+    color: #000;
 }
 
 .package-card-btn button {
@@ -876,9 +876,11 @@ color: #fff;
 
 .package-time {
     display: flex;
+    background-color: #000;
     text-align: center;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
 }
 
 .package-time p {
