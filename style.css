@@ -646,6 +646,7 @@ body {
     transform: scale(1.10);
     /* box-shadow: 0 0 20px rgba(11, 130, 96, 0.8); */
 }
+
 .newyork-card-img img {
     width: 100%;
     height: 280px;
@@ -714,7 +715,7 @@ body {
 
 .hire-talents-card:hover {
     border: 2px solid #068a65;
-  
+
 }
 
 .hire-talents-card:hover .view-details-btn button {
