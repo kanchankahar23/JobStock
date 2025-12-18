@@ -616,42 +616,65 @@ body {
 .newyork-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-    padding: 50px 50px;
+    gap: 35px;
+    padding: 50px 150px;
+}
+.newyork-card {
+    position: relative;
+    border-radius: 12px;    
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
 }
 
 .newyork-card {
-    border: 1px solid #e0e0e0;
-    border-radius: 10px;
-    text-align: center;
-    transition: box-shadow 0.3s;
-    background-color: #fff;
-    overflow: hidden;
+    transition: box-shadow 0.3s ease;
 }
 
-.newyork-card-img {
-    padding: 15px;
-    overflow: hidden;
+
+
+.newyork-card img {
+    transition: transform 0.4s ease;
+}
+
+.newyork-card:hover img {
+    transform: scale(1.10);
+     /* box-shadow: 0 0 20px rgba(11, 130, 96, 0.8); */
+}
+
+.newyork-card:hover{
+     box-shadow: 0 10px 60px #023527;
 }
 
 .newyork-card-img img {
-    width: 280px;
-    height: auto;
-    border-radius: 5px;
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
 }
-
 .newyork-card-text {
-    padding: 10px;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    padding: 10px 14px;
+    background: rgba(0, 0, 0, 0.55);
+    color: #fff;
+    border-radius: 8px;  
+    text-align: left;
 }
 
 .newyork-card-text h2 {
     font-size: 1.1rem;
+    margin: 0;
+    color: #fff;
 }
 
 .newyork-card-text p {
-    color: #0b8260;
-    margin-top: 8px;
+    margin-top: 5px;
+    font-size: 0.9rem;
+    color: #dff6f0;
 }
+
 
 .hire-talents {
     width: 100%;
