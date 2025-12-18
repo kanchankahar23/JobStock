@@ -619,9 +619,10 @@ body {
     gap: 35px;
     padding: 50px 150px;
 }
+
 .newyork-card {
     position: relative;
-    border-radius: 12px;    
+    border-radius: 12px;
     overflow: hidden;
     text-align: center;
     cursor: pointer;
@@ -640,11 +641,11 @@ body {
 
 .newyork-card:hover img {
     transform: scale(1.10);
-     /* box-shadow: 0 0 20px rgba(11, 130, 96, 0.8); */
+    /* box-shadow: 0 0 20px rgba(11, 130, 96, 0.8); */
 }
 
-.newyork-card:hover{
-     box-shadow: 0 10px 60px #023527;
+.newyork-card:hover {
+    box-shadow: 0 10px 60px #023527;
 }
 
 .newyork-card-img img {
@@ -652,6 +653,7 @@ body {
     height: 280px;
     object-fit: cover;
 }
+
 .newyork-card-text {
     position: absolute;
     bottom: 15px;
@@ -659,7 +661,7 @@ body {
     padding: 10px 14px;
     background: rgba(0, 0, 0, 0.55);
     color: #fff;
-    border-radius: 8px;  
+    border-radius: 8px;
     text-align: left;
 }
 
@@ -712,18 +714,18 @@ body {
 
     transition: transform 0.4s ease;
 }
-.hire-talents-card:hover {
-    border-color: #068a65;
-}
 
-.hire-talents-card:hover h2 {
-    transform: translateY(-10px);
-    color: #0a5;
-}
+.hire-talents-card:hover
+{
+   border: 2px solid #068a65;
 
-.hire-talents-card:hover .view-details-btn {
-    background-color: #068a65;
-    color: #fff;
+}
+.hire-talents-card:hover .view-details-btn button{
+background-color:#068a65;
+color: #fff;
+}
+.hire-talents-card:hover h2{
+    color: #068a65;
 }
 
 .hire-talents-card-img {
@@ -832,6 +834,9 @@ body {
     margin-top: 25px;
     flex-direction: column;
     gap: 1px;
+}
+.package-card-body  {
+   color: #000;
 }
 
 .package-card-header {
