@@ -788,7 +788,7 @@ body {
     background-color: #fff;
 }
 
-
+/* package */
 .package-section {
     width: 100%;
     padding: 60px 20px;
@@ -798,7 +798,7 @@ body {
 
 .package-section h1 {
     font-size: 2.2rem;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .package-section p {
@@ -817,23 +817,28 @@ body {
 
 .package-card {
     background-color: #fff;
-    padding: 30px 10px;
     border-radius: 10px;
     width: 400px;
     text-align: center;
     box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
     color: #fff;
+    padding-bottom: 20px;
+
 
 }
 
 .package-card-body {
+    height: fit-content;
     font-size: 1rem;
     color: #555;
     display: flex;
-    margin-top: 25px;
+    /* margin-top: 20px; */
     flex-direction: column;
-    gap: 1px;
+}
+
+.package-card-body i {
+    color: #068a65;
 }
 
 .package-card-header {
@@ -847,36 +852,34 @@ body {
     font-size: 30px;
 }
 
-
-
-
 .package-card:hover {
     transform: translateY(-10px);
 }
 
 .package-card-header h2 {
-    font-size: 1.8rem;
-    color: #000;
+    font-size: 2.5rem;
+    color: #068a65;
 }
 
 .package-card-btn button {
-    border: 2px solid #0b8260;
+    background-color: #0b8260;
+
     border-radius: 5px;
-    color: #0b8260;
+    color: #fff;
     cursor: pointer;
-    background-color: #fff;
+    border: none;
     font-size: 16px;
     padding: 20px 120px;
 }
 
 .package-card-btn button:hover {
-    background-color: #0b8260;
+    background-color: #055a42;
     color: #fff;
 }
 
 .package-time {
     display: flex;
-    background-color: #000;
+    background-color: #033a2b;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -885,7 +888,7 @@ body {
 
 .package-time p {
     font-size: 3.5rem;
-    margin-right: 5px;
+    /* margin-right: 5px; */
     color: #fff;
     font-weight: bold;
 }
@@ -906,7 +909,7 @@ body {
     align-items: center;
     text-align: center;
     padding: 0 20px;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .working img {
@@ -981,7 +984,6 @@ input {
     display: flex;
     justify-content: center;
     gap: 70px;
-
     padding: 10px;
 }
 
