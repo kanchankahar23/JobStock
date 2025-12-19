@@ -647,6 +647,7 @@ body {
     transform: scale(1.10);
     /* background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)); */
     box-shadow: 0 0 20px rgba(11, 130, 96, 0.8);
+     
 }
 
 .newyork-card-img img {
@@ -778,6 +779,51 @@ body {
     color: rgb(255, 215, 0);
 }
 
+.hire-talents-card {
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.hire-talents-card:hover {
+    border: 2px solid #068a65;
+    transform: translateY(-8px);
+}
+
+.view-details-btn button {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hire-talents-card:hover .view-details-btn button {
+    background-color: #068a65;
+    color: #fff;
+}
+
+.hire-talents-card-img {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.hire-talents-card:hover .hire-talents-card-img {
+    transform: scale(1.1);
+}
+
+.hire-talents-card h2 {
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.hire-talents-card:hover h2 {
+    color: #068a65;
+}
+
 .view-details-btn {
     text-align: center;
 }
@@ -849,13 +895,13 @@ body {
     overflow: hidden;
 }
 
+.package-color {
+    background-color: #0b8260;
+}
+
 .package-card-header h2 {
     font-size: 30px;
 }
-
-
-
-
 
 .package-card:hover {
     transform: translateY(-10px);
@@ -894,14 +940,32 @@ body {
 .package-time p {
     font-size: 3.5rem;
     /* margin-right: 5px; */
+    margin-top: 20px;
     color: #fff;
     font-weight: bold;
 }
 
 .package-time span {
     font-size: 1rem;
-    color: #555;
+    color: #716f6f;
 }
+
+.package-month {
+    transform: scale(0.92);
+    opacity: 1.4;
+
+}
+
+.package-card:not(.package-month) {
+    transform: scale(1.05);
+    z-index: 2;
+
+}
+
+.package-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
 
 .are-you-working {
     width: 100%;
