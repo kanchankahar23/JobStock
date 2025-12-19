@@ -1,118 +1,116 @@
  * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, Helvetica, sans-serif;
-    }
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+ }
 
-    body {
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)),
-                  url('./assets/office-picture.png');
-      background-size: cover;
-      background-position: center;
-    }
+ body {
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
+     url('./assets/office-picture.png');
+   background-size: cover;
+   background-position: center;
+ }
 
-    .signin-container {
-      background: #ffffff;
-      width: 100%;
-      max-width: 420px;
-      padding: 35px 30px;
-      border-radius: 12px;
-      box-shadow: 0 15px 40px rgba(0,0,0,0.25);
-    }
+ .signin-container {
+   background: #ffffff;
+   width: 100%;
+   max-width: 420px;
+   padding: 35px 30px;
+   border-radius: 12px;
+   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+ }
 
-    .logo {
-      text-align: center;
-      margin-bottom: 20px;
-      font-size: 26px;
-      font-weight: bold;
-      color: #0a6b4f;
-    }
+ .logo img {
+   width: 150px;
+   margin-left: 100px;
+   margin-bottom: 10px;
+ }
 
-    .signin-container h2 {
-      text-align: center;
-      margin-bottom: 10px;
-      color: #222;
-    }
+ .signin-container h2 {
+   text-align: center;
+   margin-bottom: 10px;
+   color: #222;
+ }
 
-    .signin-container p {
-      text-align: center;
-      font-size: 14px;
-      color: #666;
-      margin-bottom: 25px;
-    }
+ .signin-container p {
+   text-align: center;
+   font-size: 14px;
+   color: #666;
+   margin-bottom: 25px;
+ }
 
-    .form-group {
-      margin-bottom: 18px;
-    }
+ .form-group {
+   margin-bottom: 18px;
+ }
 
-    .form-group label {
-      display: block;
-      margin-bottom: 6px;
-      font-size: 14px;
-      color: #131313;
-    }
+ .form-group label {
+   display: block;
+   margin-bottom: 6px;
+   font-size: 14px;
+   color: #131313;
+ }
 
-    .form-group input {
-      width: 100%;
-      padding: 12px 14px;
-      border-radius: 8px;
-      border: 1px solid #ccc;
-      outline: none;
-      font-size: 14px;
-    }
+ .form-group input {
+   width: 100%;
+   padding: 12px 14px;
+   border-radius: 8px;
+   border: 1px solid #ccc;
+   outline: none;
+   font-size: 14px;
+ }
 
-    .form-group input:focus {
-      border-color: #0a6b4f;
-    }
+ .form-group input:focus {
+   border-color: #0a6b4f;
+ }
 
-    .options {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-size: 13px;
-      margin-bottom: 20px;
-    }
+ .options {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 13px;
+   margin-bottom: 20px;
+ }
 
-    .options a {
-      text-decoration: none;
-      color: #0a6b4f;
-    }
+ .options a {
+   text-decoration: none;
+   color: #0a6b4f;
+ }
 
-    .signin-btn {
-      width: 100%;
-      padding: 12px;
-      background: #0a6b4f;
-      border: none;
-      border-radius: 8px;
-      color: #fff;
-      font-size: 15px;
-      cursor: pointer;
-      transition: background 0.3s ease;
-    }
+ .signin-btn {
+   width: 100%;
+   padding: 12px;
+   background: #0a6b4f;
+   border: none;
+   border-radius: 8px;
+   color: #fff;
+   font-size: 15px;
+   cursor: pointer;
+   transition: background 0.3s ease;
+ }
 
-    .signin-btn:hover {
-      background: #08543e;
-    }
+ .signin-btn:hover {
+   background: #08543e;
+ }
 
-    .divider {
-      text-align: center;
-      margin: 20px 0;
-      font-size: 13px;
-      color: #999;
-    }
+ .divider {
+   text-align: center;
+   margin: 20px 0;
+   font-size: 13px;
+   color: #999;
+ }
 
-    .signup-link {
-      text-align: center;
-      font-size: 14px;
-    }
+ .signup-link {
+   text-align: center;
+   font-size: 14px;
+ }
 
-    .signup-link a {
-      color: #0a6b4f;
-      font-weight: bold;
-      text-decoration: none;
-    }
+ .signup-link a {
+   color: #0a6b4f;
+   font-weight: bold;
+   text-decoration: none;
+ }
