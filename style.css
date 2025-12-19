@@ -636,9 +636,6 @@ body {
 .newyork-card {
     transition: box-shadow 0.3s ease;
 }
-
-
-
 .newyork-card img {
     transition: transform 0.4s ease;
 }
@@ -646,7 +643,7 @@ body {
 .newyork-card:hover img {
     transform: scale(1.10);
     /* background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)); */
-    box-shadow: 0 0 20px rgba(11, 130, 96, 0.8);
+
      
 }
 
@@ -660,11 +657,20 @@ body {
     position: absolute;
     bottom: 15px;
     left: 15px;
-    padding: 10px 14px;
-    background: rgba(0, 0, 0, 0.55);
+    padding: 20px 14px;
+   background: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0));
     color: #fff;
     border-radius: 8px;
     text-align: left;
+}
+
+.newyork-card:hover .newyork-card-text {
+    transform: scale(1.10);
+    transition: transform 0.4s ease;
+}
+.newyork-card {
+    overflow: hidden;
+    border-radius: 12px;
 }
 
 .newyork-card-text h2 {
@@ -904,7 +910,7 @@ body {
 }
 
 .package-card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-20px);
 }
 
 .package-card-header h2 {
@@ -957,13 +963,13 @@ body {
 }
 
 .package-card:not(.package-month) {
-    transform: scale(1.05);
+    transform: scale(0.9);
     z-index: 2;
 
 }
 
 .package-card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.9s ease, box-shadow 0.3s ease;
 }
 
 
