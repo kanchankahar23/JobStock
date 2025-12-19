@@ -10,8 +10,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-                  url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d');
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)),
+                  url('https://images.unsplash.com/photo-1606857521015-7f9fcf423740?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8b2ZmaWNlfGVufDB8fDB8fHww');
       background-size: cover;
       background-position: center;
     }
