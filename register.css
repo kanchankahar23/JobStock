@@ -63,7 +63,7 @@ label {
     color: #333;
 }
 
-input {
+.form-input {
     width: 100%;
     padding: 10px;
     margin-bottom: 18px;
@@ -91,6 +91,17 @@ button {
 
 button:hover {
     background: #063c2d;
+}
+ .options {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 13px;
+   margin-bottom: 20px;
+ }
+.options{
+    display: flex;
+
 }
 
 p {
