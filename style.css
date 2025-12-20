@@ -592,9 +592,10 @@ body {
 .category-card:hover p {
     color: #ffffff;
 }
-.category-card:hover button{
+
+.category-card:hover button {
     border: 2px solid #02694c;
-    background-color:#a2efda ;
+    background-color: #a2efda;
     color: #033a2b;
 }
 
@@ -936,15 +937,15 @@ body {
     transition: transform 0.3s;
     color: #fff;
     padding-bottom: 20px;
-
-
+transition: all 0.8s ease-in-out;
 }
 
 .package-card-body {
-    height: fit-content;
+    /* height: fit-content; */
     font-size: 1rem;
     color: #555;
     display: flex;
+    gap: 0.12px;
     /* margin-top: 20px; */
     flex-direction: column;
 }
@@ -968,9 +969,7 @@ body {
     font-size: 30px;
 }
 
-.package-card:hover {
-    transform: translateY(-20px);
-}
+
 
 .package-card-header h2 {
     font-size: 2.5rem;
@@ -991,6 +990,10 @@ body {
 .package-card-btn button:hover {
     background-color: #055a42;
     color: #fff;
+}
+.package-card:hover{
+    border: 1px solid #02694c;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
 
 .package-time {
@@ -1015,20 +1018,11 @@ body {
     color: #716f6f;
 }
 
-.package-month {
-    transform: scale(0.92);
-    opacity: 1.4;
 
-}
 
-.package-card:not(.package-month) {
-    transform: scale(0.9);
-    z-index: 2;
+.basic {
 
-}
-
-.package-card {
-    transition: transform 0.6s ease, box-shadow 0.3s ease;
+    background: linear-gradient(to bottom, #02694c, #06976e);
 }
 
 
