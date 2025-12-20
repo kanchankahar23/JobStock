@@ -26,8 +26,8 @@
  }
 
  .logo img {
-   width: 100px;
-   margin-left: 125px;
+   width: 80px;
+   margin-left: 138px;
    margin-bottom: 10px;
  }
 
@@ -40,7 +40,7 @@
  .signin-container p {
    text-align: center;
    font-size: 14px;
-   color: #666;
+   color: #0b8361;
    margin-bottom: 25px;
  }
 
@@ -53,12 +53,14 @@
    margin-bottom: 6px;
    font-size: 14px;
    color: #131313;
+   margin-left: 3px;
+   font-weight: 600;
  }
 
  .form-group input {
    width: 100%;
    padding: 12px 14px;
-   border-radius: 8px;
+   border-radius: 10px;
    border: 1px solid #ccc;
    outline: none;
    font-size: 14px;
@@ -66,7 +68,18 @@
 
  .form-group input:focus {
    border-color: #0a6b4f;
+
  }
+
+.form-group input {
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:hover {
+  border: 1px solid #0b8361;
+  box-shadow: 0 0 8px #0b8361;
+}
+
 
  .options {
    display: flex;
@@ -95,13 +108,15 @@
 
  .signin-btn:hover {
    background: #08543e;
+     box-shadow: 0 0 28px #0b8361;
  }
 
  .divider {
    text-align: center;
    margin: 20px 0;
-   font-size: 13px;
-   color: #999;
+   font-size: 18px;
+   color: #222;
+
  }
 
  .signup-link {
